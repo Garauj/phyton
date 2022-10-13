@@ -1,0 +1,7 @@
+a=[10,2,5,7,6,3]
+n = len(a)
+soma = 0
+for i in range(n):
+    if(a[i]%2==0):
+        soma = soma + a[i]
+print(f'a soma é {soma}')
