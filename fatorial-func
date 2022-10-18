@@ -1,0 +1,11 @@
+def fatorials(n):
+    soma = 1
+    while n > 1:
+        soma = soma*n
+        n = n-1
+    return soma
+
+fator = eval(input("entre com o número"))
+total = fatorials(fator)
+print(f'o fatorial é: {total}')
+
