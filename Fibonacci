@@ -1,0 +1,13 @@
+def fatorial(n):
+   for n in range (0, n):
+    if n == 0 or n == 1:
+        print (1)
+        k=1
+        b=1
+    else:
+         print (k+b)
+         k = b + k
+         b = -b+k
+k=eval(input('escreva)'))
+fatorial(k)
+
