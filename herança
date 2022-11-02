@@ -1,0 +1,15 @@
+class Veiculo:
+    def __init__(self,chassi,cor,dono):
+        self.chassi = chassi
+        self.cor = cor
+        self.dono = dono
+    def tostr (self):
+        print(f'{self.chassi}, , {self.dono}, ,{self.cor}')
+
+class Onibus(Veiculo):
+    def __init__(self, passageiros, chassi, cor, dono):
+        Veiculo.__init__(self, chassi, cor, dono)
+        self.passageiros = passageiros
+
+buzao = Onibus('1', '30', '123','eu')
+buzao.tostr()
