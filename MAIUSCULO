@@ -1,0 +1,7 @@
+vetor = ['amarelo','azul','verde']
+
+fun_maiuscula = lambda x: str.upper(x)
+
+Maiusculos = list(map(fun_maiuscula,vetor))
+
+print(Maiusculos)
